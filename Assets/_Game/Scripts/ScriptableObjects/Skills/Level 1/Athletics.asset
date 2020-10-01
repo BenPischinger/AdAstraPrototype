@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fce23485b037a4aa4cd17b9e3df68a, type: 3}
+  m_Name: Athletics
+  m_EditorClassIdentifier: 
+  Description: Increases Agility by 10
+  Icon: {fileID: 21300000, guid: 7461ed42407bc9c46b1c99cb927c30f9, type: 3}
+  LevelNeeded: 1
+  XPNeeded: 10
+  equiped: 0
+  locked: 0
+  Spieler: {fileID: 0}
+  SD: {fileID: 0}
+  neighbor1: {fileID: 11400000, guid: c18e2e013cc7f2442848f6350ed11a4f, type: 2}
+  neighbor2: {fileID: 11400000, guid: 52285ba3137c10d469ef4b9098ebf676, type: 2}
+  AffectedAttributes:
+  - attribute: {fileID: 11400000, guid: 23a2819014b4e864fb973762bb0845fc, type: 2}
+    amount: 10

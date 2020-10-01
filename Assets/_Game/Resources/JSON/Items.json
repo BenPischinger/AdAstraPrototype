@@ -1,0 +1,58 @@
+[
+  {
+    "objectSlug": "sword",
+    "itemName": "Sword",
+    "description": "A long sharp Sword",
+    "itemType": "Weapon",
+    "actionName": "Equip",
+    "itemModifier": 0,
+    "stats": [
+      {
+        "StatType": "Power",
+        "baseValue": 2,
+        "statName": "Power"
+      },
+      {
+        "StatType": "Toughness",
+        "baseValue": 4,
+        "statName": "Toughness"
+      },
+      {
+        "StatType": "AttackSpeed",
+        "baseValue": 10,
+        "statName": "AttackSpeed"
+      },
+      {
+        "StatType": "HP",
+        "baseValue": 100,
+        "statName": "HP"
+      }
+    ]
+  },
+  {
+    "objectSlug": "potion_Log",
+    "itemName": "Log Potion",
+    "description": "A Potion to Drink",
+    "itemType": "Consumeable",
+    "actionName": "Drink",
+    "itemModifier": 0
+  },
+  {
+    "objectSlug": "staff",
+    "itemName": "Staff",
+    "description": "An old Staff",
+    "itemType": "Weapon",
+    "actionName": "Equip",
+    "itemModifier": 0,
+    "stats": [
+      {
+        "baseValue": 20,
+        "statName": "Power"
+      },
+      {
+        "baseValue": 4,
+        "statName": "Vitality"
+      }
+    ]
+  }
+]

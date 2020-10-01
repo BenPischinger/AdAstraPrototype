@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba5a0adc31fcd9438f24e2f0d26ad41, type: 3}
+  m_Name: ZeusA
+  m_EditorClassIdentifier: 
+  Description: Zeus Aktive
+  Icon: {fileID: 21300000, guid: d96ef95409b13284fb8c404a3f1d43e8, type: 3}
+  equiped: 0
+  locked: 0
+  Spieler: {fileID: 0}
+  GSD: {fileID: 0}
+  neighbor1: {fileID: 11400000, guid: 9e4fd00e77181eb4683abd75ee09978c, type: 2}
+  neighbor2: {fileID: 11400000, guid: d26df2a93d1491742998a47773138656, type: 2}
+  selected: 0

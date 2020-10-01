@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fce23485b037a4aa4cd17b9e3df68a, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  Description: Increases Endurance by 15
+  Icon: {fileID: 21300000, guid: c8c7982e56eeca14ba2abe46d65f4f1b, type: 3}
+  LevelNeeded: 2
+  XPNeeded: 20
+  equiped: 0
+  locked: 1
+  Spieler: {fileID: 0}
+  SD: {fileID: 0}
+  neighbor1: {fileID: 11400000, guid: 994d7ea4345a2bc4eb20f0a4de184b25, type: 2}
+  neighbor2: {fileID: 11400000, guid: e409ebe5cb2cb004dbcb0602cfb9d6e2, type: 2}
+  AffectedAttributes:
+  - attribute: {fileID: 11400000, guid: d1dc6eaf1cefa8442abcea5c9b34853f, type: 2}
+    amount: 15
